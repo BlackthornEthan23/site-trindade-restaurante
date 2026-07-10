@@ -593,4 +593,8 @@ footer {
     .hero-section h2 {
         font-size: 1.6rem;
     }
+
+    .view-cart-banner {
+        display: none !important;
+    }
 }
