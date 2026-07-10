@@ -341,7 +341,7 @@ document.addEventListener("DOMContentLoaded", () => {
             cupomInfo = `\n*Cupom Aplicado:* ${appliedCoupon.code} (${formatarMoeda(discountAmount)})`;
         }
         const total = subtotal - discountAmount;
-        let mensagem = `*-- NOVO PEDIDO Sabor & Arte --*\n\n*Itens:*\n${itensPedido}\n\n*Subtotal:* ${formatarMoeda(subtotal)}${cupomInfo}\n*Total:* ${formatarMoeda(total)}\n\n-------------------------\n\n`;
+        let mensagem = `*-- NOVO PEDIDO Trindade Restaurante --*\n\n*Itens:*\n${itensPedido}\n\n*Subtotal:* ${formatarMoeda(subtotal)}${cupomInfo}\n*Total:* ${formatarMoeda(total)}\n\n-------------------------\n\n`;
 
         if (tipoEntrega === "delivery") {
             const nome = document.getElementById("delivery-name").value;
