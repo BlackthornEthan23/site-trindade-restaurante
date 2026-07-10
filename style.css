@@ -395,7 +395,9 @@ footer {
     z-index: 1100;
 }
 
-
+.view-cart-banner.show {
+    display: flex;
+}
 
 .view-cart-banner-btn,
 .finish-order-btn,
@@ -595,4 +597,8 @@ footer {
     .view-cart-banner {
         display: none !important;
     }
+
+    .view-cart-banner.show {
+    display: none !important;
+}
 }
