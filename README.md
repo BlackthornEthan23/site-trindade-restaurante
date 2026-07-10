@@ -2,7 +2,7 @@
 
 <div align="center">
 
-**[🌐 Visite o Site](https://blackthornethan23.github.io/site-trindade-restaurante/)**
+https://blackthornethan23.github.io/site-trindade-restaurante/
 
 </div>
 
